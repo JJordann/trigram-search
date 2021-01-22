@@ -16,7 +16,7 @@ word = "galley type"
 index = makeIndex(document)
 searchResults(index, word) |> showResults
 ```
-
+Output: 
 ```
 (similarity: 8) "galley of type and"
 (similarity: 3) "typesetting industry."
@@ -24,3 +24,5 @@ searchResults(index, word) |> showResults
 (similarity: 1) "dummy text of the printing"
 (similarity: 1) "dummy text ever since"
 ```
+
+# Explanation of the method
